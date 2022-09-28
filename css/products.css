@@ -1,0 +1,61 @@
+/* navbar */
+.navbar-brand img {
+    width: 50%;
+}
+
+.nav-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.active {
+    color: orangered !important;
+}
+
+.nav-link:hover {
+    color: orangered !important;
+}
+
+/* navbar */
+
+/* Products */
+form .form-select{
+    border: 1px solid orangered;
+}
+
+.product-img {
+    margin: 0 !important;
+}
+
+.product-info {
+    padding: 8px;
+    transition: 0.7s;
+}
+
+.product-info i{
+    color: orangered !important;
+}
+.product-info:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Products */
+
+/* pagination */
+.pagination a{
+    border: 1px solid orangered;
+    padding: 5px 20px;
+    transition: 0.5s;
+}
+
+.pagination a:hover{
+    background-color: rgb(230, 230, 230);
+}
+/* pagination */
+/* footer */
+footer hr {
+    height: 3px !important;
+}
+footer a:hover{
+    color: white !important;
+}
+/* footer */

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light mb-5">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#contact">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="account.html">Account</a>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <a href="cart.html"><img src="img/cart.png" class="d-inline-block" alt="Cart"></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- Checkout -->
+    
+    <section class="container p-5">
+        <div class="d-flex justify-content-between checkout-title p-2">
+            <h4 class="flex-basis">Product</h4>
+            <h4>Quantity</h4>
+            <h4>Subtotal</h4>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center pt-sm-2">
+            <div class="d-flex flex-basis1">
+                <img src="img/buy-1.jpg" alt="buy-1" class="img-fluid" width="100px">
+                <div class="ms-3">
+                    <h5>Red Printed T-Shirt</h5>
+                    <h6>Price: $50.00</h6>
+                    <span class="remove">
+                        <a href="#"> Remove</a></span>
+                </div>
+            </div>
+            <h5 class="quantity ms-4">1</h5>
+            <h5>$50.00</h5>
+        </div>
+        
+
+        <div class="d-flex justify-content-between align-items-center pt-sm-2">
+            <div class="d-flex flex-basis1">
+                <img src="img/buy-2.jpg" alt="buy-2" class="img-fluid" width="100px">
+                <div class="ms-3">
+                    <h5>Red Printed T-Shirt</h5>
+                    <h6>Price: $50.00</h6>
+                    <span class="remove">
+                        <a href="#">Remove</a></span>
+                </div>
+            </div>
+            <h5 class="quantity ms-4">1</h5>
+            <h5>$50.00</h5>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center pt-sm-2">
+            <div class="d-flex flex-basis1">
+                <img src="img/buy-3.jpg" alt="buy-3" class="img-fluid" width="100px">
+                <div class="ms-3">
+                    <h5>Red Printed T-Shirt</h5>
+                    <h6>Price: $50.00</h6>
+                    <span class="remove">
+                        <a href="#">Remove</a></span>
+                </div>
+            </div>
+            <h5 class="quantity ms-4">1</h5>
+            <h5>$50.00</h5>
+        </div>
+
+        <div class="d-flex justify-content-end">
+            <div class="line flex-basis2">
+                <hr>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-between flex-basis2">
+                <h5>Subtotal</h5>
+                <h5>$150</h5>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-between flex-basis2">
+                <h5>Tax</h5>
+                <h5>$20</h5>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-between flex-basis2">
+                <h5>Total</h5>
+                <h5>$170</h5>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Checkout -->
+
+    <!-- Footer -->
+    <footer class="container-fluid mt-4 pt-5 pb-2 bg-dark text-white" id="about">
+        <div class="row container mx-auto" id="contact">
+
+            <div class="col-sm-4 mb-sm-0 mb-5 text-sm-start text-center">
+                <h4>Download Our App</h4>
+                <p class="text-secondary my-4">Download App for Android and iOS mobile phone.</p>
+                <img src="img/play-store.png" class="img-fluid d-inline" width="40%" alt="play-store">
+                <img src="img/app-store.png" class="img-fluid d-inline" width="40%" alt="app-store">
+            </div>
+
+            <div class="col-sm-4 text-center mt-sm-0 mt-5">
+                <img src="img/logo-white.png" class="img-fluid mb-4" width="60%" alt="logo">
+                <p class="text-secondary">Our Purpose is To Sustainably Make the Pleasure and Benefits of Sports
+                    Aaccessible to
+                    the Money.</p>
+            </div>
+
+            <div class="col-sm-2 text-center mt-sm-0 mt-5">
+                <h4 class="mb-4">Useful Links</h4>
+                <a class="d-block text-secondary text-decoration-none" href="#">Coupons</a>
+                <a class="d-block text-secondary text-decoration-none" href="#">Blog Post</a>
+                <a class="d-block text-secondary text-decoration-none" href="#">Return Policy</a>
+                <a class="d-block text-secondary text-decoration-none" href="#">Join Affiliate</a>
+            </div>
+
+            <div class="col-sm-2 text-center mt-sm-0 mt-5">
+                <h4 class="mb-4">Follow Us</h4>
+                <a class="d-block text-secondary text-decoration-none" href="#">Facebook</a>
+                <a class="d-block text-secondary text-decoration-none" href="#">Twitter</a>
+                <a class="d-block text-secondary text-decoration-none" href="#">Instagram</a>
+                <a class="d-block text-secondary text-decoration-none" href="#">Linkedin</a>
+            </div>
+
+        </div>
+        <hr class="container">
+        <p class="text-secondary text-center">Copyright &copy; 2022 Sadeki Salman </p>
+    </footer>
+    <!-- Footer -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+/* navbar */
+.navbar-brand img {
+    width: 50%;
+}
+
+.nav-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.active {
+    color: orangered !important;
+}
+
+.nav-link:hover {
+    color: orangered !important;
+}
+
+/* navbar */
+
+/* Register */
+.nav-tabs .nav-item .nav-link{
+    color: black !important;
+}
+.banner {
+    background-color: #FFE5E5
+}
+
+.banner a {
+    background-color: #FF523B;
+    border: #FF523B;
+}
+
+.actives{
+    border-bottom: #FF523B;
+}
+.reg-button{
+    width: 100%;
+    background-color: orangered !important;
+    border: 1px solid orangered !important;
+    transition: 0.7s !important;
+}
+.reg-button:hover{
+    width: 100%;
+    background-color: #0d6efd !important;
+    border: 1px solid #0d6efd !important;
+}
+
+/* Register */
+
+/* footer */
+footer hr {
+    height: 3px !important;
+}
+footer a:hover{
+    color: white !important;
+}
+
+/* footer */

@@ -1,0 +1,95 @@
+/* navbar */
+.navbar {
+    background-color: #FFE5E5;
+}
+
+.navbar-brand img {
+    width: 50%;
+}
+
+.nav-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.active {
+    color: orangered !important;
+}
+
+.nav-link:hover {
+    color: orangered !important;
+}
+
+/* navbar */
+
+/* Banner */
+.banner {
+    background-image: radial-gradient(#fff 5%,#FFE5E5 55%);
+}
+
+.banner a {
+    background-color: #FF523B;
+    border: #FF523B;
+}
+
+/* Banner */
+
+/* category */
+.category img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* category */
+
+/* Featured Products */
+.section-title hr {
+    height: 4px !important;
+    color: red !important;
+}
+
+.product-img {
+    margin: 0 !important;
+}
+
+.product-info {
+    padding: 8px;
+    transition: 0.7s;
+}
+.product-info i{
+    color: orangered !important;
+}
+.product-info:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Featured Products */
+
+/* testimonial */
+.testimonial{
+    transition: 0.7s;
+}
+.testimonial:hover{
+    background-color: #d5daf0;
+}
+.testimonial h3,i{
+    color: orangered;
+}
+
+/* testimonial */
+
+/* partners */
+.partner img {
+    filter: contrast(0);
+}
+
+/* partners */
+
+
+/* footer */
+footer hr {
+    height: 3px !important;
+}
+footer a:hover{
+    color: white !important;
+}
+
+/* footer */
